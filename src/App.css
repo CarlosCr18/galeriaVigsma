@@ -1,38 +1,118 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Tinos:ital@1&display=swap");
+
+:root {
+  --step--4: clamp(0.61rem, calc(0.64rem + -0.04vw), 0.63rem);
+  --step--3: clamp(0.76rem, calc(0.76rem + 0.02vw), 0.77rem);
+  --step--2: clamp(0.91rem, calc(0.89rem + 0.1vw), 0.96rem);
+  --step--1: clamp(1.09rem, calc(1.05rem + 0.21vw), 1.2rem);
+  --step-0: clamp(1.31rem, calc(1.24rem + 0.37vw), 1.5rem);
+  --step-1: clamp(1.58rem, calc(1.46rem + 0.59vw), 1.88rem);
+  --step-2: clamp(1.89rem, calc(1.71rem + 0.89vw), 2.34rem);
+  --step-3: clamp(2.27rem, calc(2.01rem + 1.29vw), 2.93rem);
+  --step-4: clamp(2.72rem, calc(2.36rem + 1.83vw), 3.66rem);
+  --step-5: clamp(3.27rem, calc(2.75rem + 2.56vw), 4.58rem);
+  --step-6: clamp(3.92rem, calc(3.22rem + 3.52vw), 5.72rem);
+  --space-s-xl: clamp(1.31rem, calc(0.42rem + 3.4vw), 4.5rem);
+}
+body {
+  position: relative;
+  display: grid;
+  place-content: center;
+  place-items: center;
   text-align: center;
+  width: 100vw;
+  margin: 0;
+  overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  padding: 2rem 0 5rem 0;
+  gap: 5rem;
+  height: auto;
+  background: transparent;
+}
+body::before {
+  content: "";
+  background-image: url("/public/bg8.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -2;
+}
+body::after {
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  opacity: 0.05;
+  z-index: -1;
+  background-color: black;
 }
 
-.App-link {
-  color: #61dafb;
+.titulo {
+  margin-top: var(--step-6);
+  margin-bottom: 4rem;
+  padding-bottom: 0;
+  font-size: var(--step-6);
+  font-family: "Poppins", sans-serif;
+  color: rgb(3, 35, 70);
+  position: relative;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.titulo::after {
+  position: absolute;
+  left: 0;
+  top: 95%;
+  width: 100%;
+  font-size: var(--step-0);
+  color: rgb(184, 21, 21);
+  font-family: "Tinos", serif;
+  content: "Si no estamos aqui, estamos en tu obra!";
+}
+
+.tituloDeCarousel {
+  margin-top: -2rem;
+  font-size: var(--step-0);
+}
+
+.contenedorCarousel {
+  max-width: min(95vw, 50rem);
+  max-height: 600px;
+  height: 600px;
+  padding: 3rem;
+  font-family: "Tinos", serif;
+  background-color: white;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.offsetIzquierdo {
+  margin-right: calc(-25% + 25vw);
+  margin-left: calc(25% - 25vw);
+}
+.offsetDerecho {
+  margin-right: calc(25% - 25vw);
+  margin-left: calc(-25% + 25vw);
+}
+
+@media (max-width: 800px) {
+  .offsetIzquierdo,
+  .offsetDerecho {
+    margin-right: 0;
+    margin-left: 0;
   }
-  to {
-    transform: rotate(360deg);
+  .contenedorCarousel {
+    background-color: rgba(255, 255, 255, 0.35);
+  }
+  .titulo::after {
+    top: 105%;
   }
 }
