@@ -1,16 +1,39 @@
 {
   "files": {
-    "main.css": "/galeriaVigsma/static/css/main.073c9b0a.css",
-    "main.js": "/galeriaVigsma/static/js/main.d8b962be.js",
+    "main.css": "/galeriaVigsma/static/css/main.19f6c95e.css",
+    "main.js": "/galeriaVigsma/static/js/main.54fa41ec.js",
     "static/js/787.49720c4e.chunk.js": "/galeriaVigsma/static/js/787.49720c4e.chunk.js",
-    "static/media/logo.svg": "/galeriaVigsma/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/IMG_20220511_132826404.jpg": "/galeriaVigsma/static/media/IMG_20220511_132826404.c59b8f29006bdf1c32fe.jpg",
+    "static/media/FOTO SN FRANCISCO.jpg": "/galeriaVigsma/static/media/FOTO SN FRANCISCO.c056de7d6d96721de439.jpg",
+    "static/media/FOTO ORATORIO.jpg": "/galeriaVigsma/static/media/FOTO ORATORIO.6af3323f59ad311205db.jpg",
+    "static/media/IMG_20220511_133356597.jpg": "/galeriaVigsma/static/media/IMG_20220511_133356597.a47a2be22f131d56a785.jpg",
+    "static/media/IMG_20220511_133234543_HDR.jpg": "/galeriaVigsma/static/media/IMG_20220511_133234543_HDR.9c850f168d56ad4b0c41.jpg",
+    "static/media/IMG_20220511_133152599_HDR.jpg": "/galeriaVigsma/static/media/IMG_20220511_133152599_HDR.d1469d42117d745bb17e.jpg",
+    "static/media/IMG_20220511_133139966_HDR.jpg": "/galeriaVigsma/static/media/IMG_20220511_133139966_HDR.c2c3b01cab7e02abf2bf.jpg",
+    "static/media/FOTO SMA.jpg": "/galeriaVigsma/static/media/FOTO SMA.b4f3af2559972f0bcd9c.jpg",
+    "static/media/IMG_20220511_133317217_HDR.jpg": "/galeriaVigsma/static/media/IMG_20220511_133317217_HDR.8dde51e2f2f1cd719f8e.jpg",
+    "static/media/IMG_20220510_104637726_HDR.jpg": "/galeriaVigsma/static/media/IMG_20220510_104637726_HDR.cda8039921665623e736.jpg",
+    "static/media/IMG_20220510_104632499_HDR.jpg": "/galeriaVigsma/static/media/IMG_20220510_104632499_HDR.b9dcb71138f2544fafdc.jpg",
+    "static/media/IMG_20220510_104512960_HDR.jpg": "/galeriaVigsma/static/media/IMG_20220510_104512960_HDR.fd95eec0fdeaed609700.jpg",
+    "static/media/IMG_20220510_104646671.jpg": "/galeriaVigsma/static/media/IMG_20220510_104646671.dde8ac5c6983812731f9.jpg",
+    "static/media/IMG_20220510_104518140_HDR.jpg": "/galeriaVigsma/static/media/IMG_20220510_104518140_HDR.675df2382c4bb91b6199.jpg",
+    "static/media/b8.jpg": "/galeriaVigsma/static/media/b8.476a2ab1b61f29442c69.jpg",
+    "static/media/b5.jpg": "/galeriaVigsma/static/media/b5.cecadd4ad093274bfa88.jpg",
+    "static/media/b7.jpg": "/galeriaVigsma/static/media/b7.8dbe915689c4b9e7a24c.jpg",
+    "static/media/b6.jpg": "/galeriaVigsma/static/media/b6.667387c3d9f2de4ffc01.jpg",
+    "static/media/b4.jpg": "/galeriaVigsma/static/media/b4.6e9ab7af9891a6b3fba5.jpg",
+    "static/media/b3.jpg": "/galeriaVigsma/static/media/b3.97d33c35cab977d38d7e.jpg",
+    "static/media/IMG_20220511_133408800.jpg": "/galeriaVigsma/static/media/IMG_20220511_133408800.9d78498726921e4c7df9.jpg",
+    "static/media/b2.jpg": "/galeriaVigsma/static/media/b2.2e245d01497975df1d3c.jpg",
+    "static/media/b1.jpg": "/galeriaVigsma/static/media/b1.7621682fba878723f721.jpg",
+    "static/media/bg8.jpg": "/galeriaVigsma/static/media/bg8.73608092efe8bd130587.jpg",
     "index.html": "/galeriaVigsma/index.html",
-    "main.073c9b0a.css.map": "/galeriaVigsma/static/css/main.073c9b0a.css.map",
-    "main.d8b962be.js.map": "/galeriaVigsma/static/js/main.d8b962be.js.map",
+    "main.19f6c95e.css.map": "/galeriaVigsma/static/css/main.19f6c95e.css.map",
+    "main.54fa41ec.js.map": "/galeriaVigsma/static/js/main.54fa41ec.js.map",
     "787.49720c4e.chunk.js.map": "/galeriaVigsma/static/js/787.49720c4e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.d8b962be.js"
+    "static/css/main.19f6c95e.css",
+    "static/js/main.54fa41ec.js"
   ]
 }
